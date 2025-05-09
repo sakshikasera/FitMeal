@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.contain{
+     border: 5px solid black;
+    height: 300px;
+    width: 100%;
+    margin-bottom: -5%;
+    position: relative;
+} 
+.contain>img{
+    width: 100%;
+    height: 300px;
+}
+.about{
+    position: absolute;
+    bottom: 150px;
+    right: 50%;
+    /* background-color: black; */
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 40px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* font-family: 'Cedarville Cursive'; */
+    font-family: 'Pacifico', cursive;
+}
+
+#firstcontain{
+    margin: -5%;
+    margin-bottom: 0%;
+    margin-top: -5%;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgb(178,178,178);
+}
+#secondline{
+    text-align: center;
+    color: white;
+    font-size: 22px; 
+    padding-top: 120px;
+    /* font-family:  'Cedarville Cursive', cursive; */
+    /* font-family: 'Pacifico', cursive; */
+}
+#contain+div{
+    background-color: rgb(178,178,178);
+}
+#thirdline{
+text-align: center;   
+color: black;
+font-size: 18px; 
+padding-left: 93px; 
+padding-right: 93px;
+}
+#image{
+   display: flex;
+   flex-direction: row;
+   margin: 35px;
+   padding: 5px;
+   align-items:center;
+   justify-content: space-around;
+   margin-left: 10px;
+   margin-right: 160px;
+   padding-bottom: 130px;
+   margin-top: 0%;
+}
+#image >img{
+ border: 6px solid white;
+ border-radius: 50%;
+ height: 250px;
+ width: 250px;
+}
+#sec-cont{
+   background-color: rgb(243,245,237);
+   margin-top: -2.3%;
+   padding-top: -2.3%;
+   margin-left:  170px;
+   margin-right:170px;
+   height: 550px;
+}
+#mission{
+   font-weight: 200;
+   font-size: 35px;
+   text-align:center ;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#mission + p{
+   text-align: center;
+   padding: 10px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: 50;
+}
+#box-inside-our-mission{
+     border: 2px solid rgb(142,192,56);
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     text-align: center;
+     padding: 10px;
+     margin-left: 10px;
+     margin-right: 10px;
+     border-radius: 20px;
+     margin-bottom: 10px;
+}
+.drop{
+    padding-top: 90px;
+    /* padding-top: 20px; */
+}
+#box-inside-our-mission >p{
+    padding-bottom: 50px;
+    padding-top: 20px;
+}

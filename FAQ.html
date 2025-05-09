@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <a href="https://fonts.googleapis.com/icon?family=Material+Icons"  rel="stylesheet" /> -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+    <link rel="stylesheet" href="FAQ.css" />
+    <link rel="stylesheet" href="blog_navbar.css">
+
+
+
+</head>
+
+<body>
+    <div id="blog_navbar">
+        
+    </div>
+    <div id="container">
+        <img src=" https://i.ibb.co/kBYMfCD/th-id-OIP.jpg" />
+        <div id="text-img">Frequently Asked Questions</div>
+       
+        <!-- https://i.ibb.co/jDWC7Cg/th-id-OIP.jpg -->
+    </div>
+    <div id="main-container">
+        <div id="main-cont-left">
+            <div id="main-left-one"> If you need more help</div>
+            <div id="main-left-second">Have more queries regarding the plans or need a customised plan? No problem! Give
+                us a call or send us an email and we will get back to you as soon as possible!</div>
+            <div id="main-left-third"><i class="material-icons" style="color: rgb(142,192,56);">phone_in_talk</i> <b>
+                    +91 9963697412 </b></div>
+            <div id="main-left-third"><i class="material-icons" style="color: rgb(142,192,56);">markunread </i> <b>
+                    fitmealsindia@gmail.com</b></div>
+            <div id="main-left-third"><i class="material-icons" style="color: rgb(142,192,56);">location_on </i>
+                <b>Banjara Hills, road no.5</b></div>
+        </div>
+        <div id="main-cont-rightone">
+            <div class="que" id="qone" onclick="colr(`aone`)">Why should I choose Fitmeals?</div>
+            <div class="ans" id="aone"><b>We take pride in procuring the best quality of ingredients and preparing
+                    delicious yet highly nutritious meals. Our food is not only freshly prepared but is also hygiene
+                    approved.</b></div>
+            <div class="que" id="qtwo" onclick="colr(`atwo`)">I'm a vegetarian on some days and eat none-veg on another
+                days, Can I change my meals based on that? </div>
+            <div class="ans" id="atwo"><b> We are very flexible in the service we provide, you can just let us know
+                    about your food preferences and we will send meals with respect to that.</b></div>
+            <div class="que" id="qthree" onclick="colr(`athree`)">What payment methods exist on your company?</div>
+            <div class="ans" id="athree"><b> You can pay by cash, card, Gpay, Paytm, PhonePay.</b></div>
+            <div class="que" id="qfour" onclick="colr(`afour`)">Can I get refund if I don't want to continue the
+                service? </div>
+            <div class="ans" id="afour"><b> At Fitmeals, we have a STRICT no refund policy. We’d suggest you to go for
+                    the trial plans first.</b></div>
+            <div class="que" id="qfive" onclick="colr(`afive`)">Is your meat Halal?</div>
+            <div class="ans" id="afive"><b> Yes absolutely, our meals are 100% halal</b></div>
+            <div class="que" id="qsix" onclick="colr(`asix`)">What if I'm travelling or don't want meals on a particular
+                day?</div>
+            <div class="ans" id="asix"><b> If you wish to pause or cancel your meals, you just have to inform us one day
+                    prior and we’ll stop your services immediately.</b></div>
+            <div class="que" id="qseven" onclick="colr(`aseven`)">Do you guarantee weight lose? </div>
+            <div class="ans" id="aseven"><b> We do not guarantee weight loss since every body type is different; our
+                    diet plans may work for some while others won’t see a difference. However, we will try our best and
+                    alter the diet accordingly to help your reach your goals.</b></div>
+            <div class="que" id="qeight" onclick="colr(`aeight`)">How do I know which plan to choose? </div>
+            <div class="ans" id="aeight"><b> If you can’t understand which plan would work the best for you, you can
+                    contact our nutritionists directly at 9100347480 for a consultation session.</b></div>
+        </div>
+
+    </div>
+
+</body>
+<script>
+    // const colour=(id)=>{
+    //   var ele=document.getElementById(id)
+    //   var data=ele.innerHTML
+    //   console.log(data)
+    //   data.style.colour= "rgb(142,192,56)"
+    // }
+
+    function colr(data) {
+        var ans = document.getElementById(data)
+        if (ans.style.display == "flex") {
+            ans.style.display = "none"
+        } else {
+            ans.style.display = "flex"
+        }
+    }
+</script>
+<script type="module" src="blog_navbar.js"></script>
+
+</html>
+
+
+<!-- <img src="https://i.ibb.co/5Bb7wGg/th.jpg" -->
+<!-- markunread -->
+<!-- onmouseover="this.style.colour=`green`"  -->

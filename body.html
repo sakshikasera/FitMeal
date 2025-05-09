@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="body.css" />
+    <link rel="stylesheet" href="comments.css" />
+</head>
+<body>
+    <div class="geta-border">
+        <!-- <img class="header-img" src="https://i.ibb.co/B40xwbM/man-461195-640.jpg" alt="" />  -->
+    </div>
+    <!-- <p class="geta">Geta</p> -->
+    <div class="after-geta" >
+        <p>Nutrition</p>
+        <div class="fitmeals">A guide to clean bulking</div>
+        <span class="calendor"><i class="material-icons" style="color: gray;">calendar_month</i>June 16, 2021</span>
+            <span class="comment"><i class="material-icons" style="color: gray;">chat</i>0 comments</span>
+    </div>
+    <img class="body" src="https://i.ibb.co/B40xwbM/man-461195-640.jpg" />
+    <div class="tips-for-body">
+        <pre style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+        Want to gain weight or build muscle?
+
+        The only solution is to eat surplus.
+
+        Contrary to what most people think, it’s actually very hard to lean bulk- it involves eating a lot of calories even if you don’t
+        
+        have the appetite for it.
+
+
+        Here are a few tips:
+
+        💪🏽Start with adding additional 500 kcal first and then slowly build up.
+
+        💪🏽It’s easier to drink calories than to eat them so incorporate dense smoothies into your plan.
+
+        💪🏽Aim for 1.8-2kg protein per kg body weight- Add a protein supplement if needed.
+
+        💪🏽Make sure you snack well between your meals.
+
+        💪🏽Add nuts and nut butters for extra calories.
+
+        💪🏽Do more of strength training and cardio.
+
+        
+        You can check out our Athletic plan that focuses on building muscle while simultaneously losing fat.
+        </pre>
+        <hr style="margin-left: 4%;margin-right: 20%;margin-top: 15%;">
+        <div class="share" style="margin-left: 800px;" > <i class="material-icons" style="color: rgb(142,192,56);height: 0px;"  >share</i>Share</div>
+    </div>
+
+    <h2 class="post">Post comment</h2>
+    <div class="comment-div">
+        <p>Your email address will not be published. Required fields are marked *</p>
+        <textarea name="" id="text-area" cols="193%" rows="30" placeholder="   Comment" class="text"></textarea>
+        <input id="comment-name" type="text" placeholder="Name*">
+        <input id="comment-email" type="text" placeholder="Email*">
+        <button onclick="store()">Leave Comment</button>
+
+    </div>
+    
+</body>
+<script src='comments.js'>
+    // <link rel="stylesheet" href="comments.js" />
+// function store(){
+//     var data=localStorage.getItem("data")
+//     if(data==null){
+//         localStorage.setItem("data",JSON.stringify([]))
+//     }
+    
+//     var comment=document.getElementById("text-area").value
+//     var name=document.getElementById("comment-name").value
+//     var email=document.getElementById("comment-email").value
+
+//     var map={
+//         Comment:comment,
+//         Name:name,
+//         Email:email,
+//     }
+//     console.log(map)
+//     map=JSON.stringify(map)
+//     var where_to_push=localStorage.getItem("data")
+//     where_to_push=JSON.parse(where_to_push)
+//     where_to_push.push(map) 
+//     localStorage.setItem("data",JSON.stringify(where_to_push))
+//     alert("Your Comment has been recorded Thank you")
+//     // location.reload()
+
+// }
+</script>
+</html>
